@@ -124,6 +124,7 @@ body{
     box-shadow: 10px 5px 40px #c7c7c7a9;
     margin: 10px 10px;
     padding: 15px 0px;
+    border-radius: 15px;
 }
 .blog-thumbnail img{
     width: 90%;
@@ -163,9 +164,9 @@ body{
  /* End Latest Blogs CSS */
  /* Start announcement CSS */
 .announcements {
-    background-color: #e02c6e2a;
+    background-color: #e02c6e1a;
     padding: 20px;
-    border-radius: 3%;
+    border-radius: 2%;
 }
  .announcement {
     display: flex;
@@ -333,8 +334,9 @@ body{
     .decs {
         padding: 10px 0px;
     }
+    
  /* End Latest Blogs CSS */
-/* Start Recent announcement CSS */
+/* Start announcement CSS */
     .announcement {
         display: flex;
         flex-direction: column;
@@ -352,7 +354,7 @@ body{
         width: 50%;
         margin-left: 21%;
     }
-/* End Recent announcements CSS */
+/* End announcements CSS */
   /* Start Footer CSS */
     .logo {
         padding-top: 50px;
