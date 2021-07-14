@@ -140,12 +140,18 @@ body{
     line-height: 34px;
     padding-top: 20px;
 }
-.autohr{
+.author{
     font-size: 16px;
     color: #9F9F9F;
     font-weight: 500;
     font-style: normal;
     line-height: 24px;
+}
+.author i{
+    color: #E02C6D;
+}
+.time {
+    color: #E02C6D;
 }
 .author-link{
     font-size: 16px;
@@ -231,6 +237,55 @@ body{
     color: #000;
 }
  /* End announcement CSS */
+ /* Start subscribe section */
+.subscribe{
+    padding: 60px 0;
+    box-shadow: 10px 5px 50px #c7c7c7a9;
+    margin: 30px 100px 20px;
+    border-radius: 20px;
+}
+.subscribe h1{
+    text-align: center;
+    color: #6F6F6F;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.subscribe-form{
+    display: flex;
+    width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    align-items: center;
+}
+.subscribe-form-text{
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    border: 0;
+    background: #FFFFFF;
+    padding: 20px 40px;
+    color: #CF1D5F;
+    box-shadow: 10px 5px 50px #c7c7c7a9;
+    border-radius: 20px;
+}
+textarea.subscribe-form-text{
+    height: 120px;
+}
+.subscribe-form-btn{
+    float: right;
+    border: 0;
+    color: #fff;
+    margin-left: 40px;
+    width: 35%;
+    height: 50px;
+    border-radius: 20px;
+    background-image:linear-gradient(to left, #cf1d5ec0, #CF1D5F);
+}
+.subscribe-form-btn:hover{
+    background-image:linear-gradient(#CF1D5F, #cf1d5ec0);
+}
+
+ /* End subscribe CSS */
  /* Start Footer CSS */
 .footer {
     text-align: center;
@@ -352,7 +407,39 @@ body{
         width: 50%;
         margin-left: 21%;
     }
+    .announcement-text h2 {
+        font-size: 30px;
+    }
+    .announcement-text p {
+        line-height: normal;
+    }
 /* End announcements CSS */
+ /* Start subscribe section */
+    .subscribe{
+        padding: 60px 0;
+        box-shadow: 10px 5px 50px #c7c7c7a9;
+        margin: 10px 10px 10px;
+        border-radius: 20px;
+    }
+    .subscribe h1 {
+        font-size: 26px;
+        padding-bottom: 30px;
+    }
+    .subscribe-form {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        padding: 0 0px;
+        flex-direction: column;
+    }
+    .subscribe-form-text {
+        width: 65%;
+        margin: 16px 0;
+    }
+    .subscribe-form-btn{
+        margin-left: 0px;
+    }
+ /* End subscribe section */
   /* Start Footer CSS */
     .logo {
         padding-top: 50px;
@@ -444,5 +531,20 @@ body{
         width: 36%;
     }
 /* End announcements CSS */
+ /* Start subscribe section */
+    .subscribe-form {
+        width: 100%;
+        padding: 0 0px;
+        flex-direction: column;
+    }
+    .subscribe-form-text {
+        width: 60%;
+        margin: 16px 0;
+    }
+    .subscribe-form-btn{
+        margin-left: 0px;
+        width: 20%;
+    }
+/* End subscribe section */
 
 }
