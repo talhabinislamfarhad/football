@@ -246,7 +246,7 @@ figure{
     color: #000;
 }
  /* End announcement CSS */
- /* Start subscribe section */
+ /* Start subscribe CSS */
 .subscribe{
     padding: 60px 0;
     box-shadow: 10px 5px 50px #c7c7c7a9;
@@ -427,7 +427,7 @@ textarea.subscribe-form-text{
         line-height: normal;
     }
 /* End announcements CSS */
- /* Start subscribe section */
+ /* Start subscribe CSS */
     .subscribe{
         padding: 60px 0;
         box-shadow: 10px 5px 50px #c7c7c7a9;
@@ -452,7 +452,7 @@ textarea.subscribe-form-text{
     .subscribe-form-btn{
         margin-left: 0px;
     }
- /* End subscribe section */
+ /* End subscribe CSS */
   /* Start Footer CSS */
     .logo {
         padding-top: 50px;
@@ -544,7 +544,7 @@ textarea.subscribe-form-text{
         width: 36%;
     }
 /* End announcements CSS */
- /* Start subscribe section */
+ /* Start subscribe CSS */
     .subscribe-form {
         width: 100%;
         padding: 0 0px;
@@ -558,6 +558,6 @@ textarea.subscribe-form-text{
         margin-left: 0px;
         width: 20%;
     }
-/* End subscribe section */
+/* End subscribe CSS */
 
 }
