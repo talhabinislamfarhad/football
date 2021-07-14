@@ -423,6 +423,10 @@ body{
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
     }
+    .blogs {
+        margin: 20px 40px;
+        padding: 0px;
+    }
     /* End Latest Blogs CSS */
     /* Start Recent announcements CSS */
     .announcement {
