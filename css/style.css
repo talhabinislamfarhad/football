@@ -309,6 +309,10 @@ textarea.subscribe-form-text{
     line-height: 24px;
     color: #000000;
 }
+.footer a {
+    text-decoration: none;
+    color: #E02C6D;
+}
  /* End Footer CSS */
 
 /* media Quiery */
