@@ -13,10 +13,11 @@ body{
  /* Start Banner CSS */
 .banner {
     background-color: #2D25A0;
+    height: 635px;
 }
 .container{
     display: grid;
-    padding: 114px 110px;
+    padding: 90px 110px;
     grid-template-columns: repeat(2, 1fr);
 }
 .banner-left{
@@ -95,6 +96,140 @@ body{
     padding: 5px;
 }
  /* End Players CSS */
+  /* Start Latest Blogs CSS */
+.latest-blogs h2 {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 60px;
+    border-bottom: 4px solid;
+    margin: 0px 35%;
+}
+.blogs {
+    margin: 5px 80px;
+    padding: 30px;
+    border-radius: 7px;
+    background-color: #fff;
+    flex-direction: column;
+}
+.top-blog{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-row-gap: 30px;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 5px 40px #c7c7c7a9;
+    margin: 10px 10px;
+    padding: 15px 0px;
+}
+.blog-thumbnail img{
+    width: 90%;
+    height: 100%;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 34px;
+    padding-top: 20px;
+}
+.autohr{
+    font-size: 16px;
+    color: #9F9F9F;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+}
+.author-link{
+    font-size: 16px;
+    color: #E02C6D;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    text-decoration: none;
+}
+.decs {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    padding: 10px 24px;
+}
+ /* End Latest Blogs CSS */
+ /* Start announcement CSS */
+.announcements {
+    background-color: #e02c6e2a;
+    padding: 20px;
+    border-radius: 3%;
+}
+ .announcement {
+    display: flex;
+    align-items: center;
+    margin: 20px 80px;
+    padding: 30px;
+    border-radius: 7px;
+    background-color: #fff;
+    /* box-shadow: 10px 5px 40px rgba(255, 228, 196, 0.911); */
+}
+.announcement-img img {
+    width: 567px;
+    height: 427px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 10px 5px 50px #c7c7c7a9;
+}
+.announcement-text {
+    padding: 40px;
+    text-align: center;
+}
+.announcement-text  h2{
+    padding: 0;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #18191F;
+}
+.announcement-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    padding: 5px;
+    line-height: 2;
+}
+.announcement-btn {
+    width: 40%;
+    background-color: #E02C6D;
+    margin-top: 20px;
+    margin-left: 27%;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid #cf1d5f;
+    border-radius: 5px;
+    transition: width 1s, color 1s;
+}
+.announcement-btn:hover {
+    width: 160px;
+    background-color: transparent;
+    border: 2px solid #cf1d5f;
+    overflow: hidden;
+}
+.announcement-btn a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    padding-right: 8px;
+    text-decoration: none;
+}
+.announcement-btn i {
+    width: 24px;
+    color: #000;
+}
+ /* Start announcement CSS */
  /* Start Footer CSS */
 .footer {
     text-align: center;
@@ -118,7 +253,9 @@ body{
     line-height: 24px;
     color: #000000;
 }
+
  /* End Footer CSS */
+
 /* media Quiery */
 /* mobile device */
 @media only screen and (max-width: 688px) {
@@ -167,6 +304,55 @@ body{
         height: 356px;
     }
   /* End Players CSS */
+ /* Start Latest Blogs CSS */
+    .latest-blogs h2 {
+        font-size: 20px;
+        padding-top: 20px;
+        border-bottom: 4px solid;
+        margin: 0px 60px;
+    }
+    .blogs {
+        margin: 5px 5px;
+        padding: 15px;
+        border-radius: 7px;
+        background-color: #fff;
+        flex-direction: column;
+    }
+    .top-blog {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-row-gap: 30px;
+    }
+    .blog {
+        margin: 0px 0px; 
+        padding: 5px 0px;
+    }
+    .blog-info {
+        margin: 5px;
+    }
+    .decs {
+        padding: 10px 0px;
+    }
+ /* End Latest Blogs CSS */
+/* Start Recent announcement CSS */
+    .announcement {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px;
+        padding: 20px;
+    }
+    .announcement-img img{
+        width: 290px;
+        height: 260px;
+    }
+    .announcement-text {
+        padding: 5px;
+    }
+    .announcement-btn {
+        width: 50%;
+        margin-left: 21%;
+    }
+/* End Recent announcements CSS */
   /* Start Footer CSS */
     .logo {
         padding-top: 50px;
@@ -182,11 +368,11 @@ body{
   /* End Footer CSS */
 }
 /* tablet device */
-@media only screen and (min-width: 688px) and (max-width: 992px) {
+@media only screen and (min-width: 688px) and (max-width: 1126px) {
   /* Start Banner CSS */
     .banner{
         width: 100%;
-        height: 380px;
+        height: 430px;;
     }
     .container{
         display: grid;
@@ -231,5 +417,22 @@ body{
         height: 300px;
     }
     /* End Players CSS */
+    /* Start Recent announcements CSS */
+    .announcement {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 30px;
+        padding: 20px;
+    }
+    .announcement-text {
+        padding: 5px;
+    }
+    .announcement-btn {
+        width: 40%;
+    }
+    .announcement-btn:hover {
+        width: 36%;
+    }
+/* End Recent announcements CSS */
 
 }
