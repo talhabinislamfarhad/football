@@ -230,7 +230,7 @@ body{
     width: 24px;
     color: #000;
 }
- /* Start announcement CSS */
+ /* End announcement CSS */
  /* Start Footer CSS */
 .footer {
     text-align: center;
@@ -254,7 +254,6 @@ body{
     line-height: 24px;
     color: #000000;
 }
-
  /* End Footer CSS */
 
 /* media Quiery */
@@ -428,7 +427,7 @@ body{
         padding: 0px;
     }
     /* End Latest Blogs CSS */
-    /* Start Recent announcements CSS */
+    /* Start announcements CSS */
     .announcement {
         display: flex;
         flex-direction: column;
@@ -444,6 +443,6 @@ body{
     .announcement-btn:hover {
         width: 36%;
     }
-/* End Recent announcements CSS */
+/* End announcements CSS */
 
 }
