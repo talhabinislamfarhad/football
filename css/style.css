@@ -334,7 +334,6 @@ body{
     .decs {
         padding: 10px 0px;
     }
-    
  /* End Latest Blogs CSS */
 /* Start announcement CSS */
     .announcement {
@@ -419,6 +418,11 @@ body{
         height: 300px;
     }
     /* End Players CSS */
+     /* Start Latest Blogs CSS */
+    .top-blog {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+    /* End Latest Blogs CSS */
     /* Start Recent announcements CSS */
     .announcement {
         display: flex;
